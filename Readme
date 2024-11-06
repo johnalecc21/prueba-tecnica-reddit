@@ -1,4 +1,81 @@
-cd backend/
-source env/bin/activate 
+# Proyecto Prueba Técnica Reddit
+
+Este es un proyecto de prueba técnica que simula una aplicación similar a Reddit. Este repositorio contiene tanto el **frontend** como el **backend**.
+
+## Requisitos
+
+- **Node.js** (para el frontend)
+- **npm** (para gestionar las dependencias de Node.js)
+- **Python 3** (para el backend)
+- **Django** (para el backend)
+
+## Estructura del Proyecto
+
+El proyecto está dividido en dos partes principales:
+
+1. **Frontend**: Implementado en **Vite** + **React**.
+2. **Backend**: Implementado en **Django**.
+
+## Clonar el Repositorio
+
+Primero, clonar el repositorio en la máquina local:
+
+```bash
+git clone https://github.com/johnalecc21/prueba-tecnica-reddit.git
+cd prueba-tecnica-reddit
+```
+
+## Instrucciones para el Frontend
+
+## 1. Navegar al directorio del frontend:
+
+```bash
+cd frontend
+```
+## 2. Instalar las dependencias de Node.js usando npm:
+
+```bash
+npm install
+```
+## 3. Ejecutar el servidor de desarrollo:
+
+```bash
+npm run dev
+```
+
+# el frontend se ejecuta en http://localhost:5173/
+
+
+## Instrucciones para el Backend
+
+## 1. Navegar al directorio del backend:
+
+```bash
+cd backend
+```
+
+## 2. Luego, activar el entorno virtual:
+
+## En Linux/macOS:
+
+```bash
+source env/bin/activate
+```
+
+## En Windows:
+
+```bash
+.\env\Scripts\activate
+```
+
+## 3. Aplicar las migraciones de Django para configurar la base de datos:
+
+```bash
 python manage.py migrate
+```
+
+## 4. Ejecutar el servidor de desarrollo de Django:
+
+```bash
 python manage.py runserver 8080
+```

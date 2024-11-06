@@ -19,7 +19,7 @@ const LanguageSelector: React.FC<LanguageSelectorProps> = ({
           onClick={() => onLanguageChange('en')}
           className={`px-3 py-1 rounded text-sm ${
             currentLanguage === 'en'
-              ? 'bg-blue-500 text-white'
+              ? 'bg-[#FF4500] text-white'
               : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
           }`}
         >
@@ -29,7 +29,7 @@ const LanguageSelector: React.FC<LanguageSelectorProps> = ({
           onClick={() => onLanguageChange('es')}
           className={`px-3 py-1 rounded text-sm ${
             currentLanguage === 'es'
-              ? 'bg-blue-500 text-white'
+              ? 'bg-[#FF4500] text-white'
               : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
           }`}
         >

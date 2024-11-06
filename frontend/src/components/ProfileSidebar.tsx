@@ -35,7 +35,7 @@ const ProfileSidebar = () => {
         </div>
       </div>
 
-      <button className="w-full bg-blue-500 hover:bg-blue-600 text-white rounded-full py-1.5 text-sm font-bold mt-2">
+      <button className="w-full bg-[#FF4500] hover:bg-[#FF5722] text-white rounded-full py-1.5 text-sm font-bold mt-2">
         Join
       </button>
     </div>
